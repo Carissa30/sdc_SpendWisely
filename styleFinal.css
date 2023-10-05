@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+.hero {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.cta-button {
+    background: #ff9900;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #ff6600;
+}
+
+.features {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.feature-item {
+    margin-bottom: 50px;
+}
+
+.feature-item img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.about, .contact {
+    padding: 100px 0;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ... (your existing styles) ... */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* ... (other styles) ... */
+}
+
+/* Center the "Spend Wisely" heading */
+.hero h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ... (other styles) ... */
+
