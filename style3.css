@@ -1,0 +1,153 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #ff9900;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #ff6600;
+}
+
+.features {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    margin-bottom: 50px;
+}
+
+.feature-item img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+    }
+    
+   .menu>li {
+        margin: 0 1rem;
+        overflow: hidden;
+    }
+    /*Container for menu button  */
+    
+    .menu-button-container {
+        display: none;
+        height: 100%;
+        width: 30px;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+    /*  Creating the menu button */
+    
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        display: block;
+        background-color: black;
+        position: absolute;
+        height: 6px;
+        width: 32px;
+        border-radius: 3px;
+        color: white;
+    }
+    
+    .menu-button::before {
+        content: "";
+        margin-top: -8px;
+    }
+    
+    .menu-button::after {
+        content: "";
+        margin-top: 8px;
+    }
